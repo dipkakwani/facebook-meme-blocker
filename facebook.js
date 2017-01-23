@@ -26,6 +26,10 @@ const show_facebook_cv_tags = function(localeData) {
       tags.forEach(function(tag) {
         let prefix = '∙';
 
+        if (tag == 'meme' || tag == 'text') {
+            el.style.display = "none";
+        }
+
         if (tag in localeData.emoji_map) {
           prefix = localeData.emoji_map[tag];
         } else if (tag.endsWith(localeData.tag_ends_with)) {

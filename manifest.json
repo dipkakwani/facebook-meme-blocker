@@ -1,10 +1,10 @@
 {
-  "name": "Show Facebook Computer Vision Tags",
+  "name": "Facebook meme blocker",
   "version": "0.0.1",
-  "author": "Adam Geitgey",
+  "author": "Diptanshu Kakwani",
   "manifest_version": 2,
-  "description": "Shows what Facebook thinks your pictures contain",
-  "homepage_url": "https://github.com/ageitgey/show-facebook-computer-vision-tags",
+  "description": "Hide all the meme images",
+  "homepage_url": "https://github.com/dipkakwani/facebook-meme-blocker",
   "permissions": [
     "http://www.facebook.com/*", "https://www.facebook.com/*"
   ],
